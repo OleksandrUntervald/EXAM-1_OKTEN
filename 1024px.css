@@ -1,0 +1,213 @@
+@media (max-width: 1024px) {
+    body h2{
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .main{
+        gap: 25px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .main .cv__about{
+
+        flex-direction: column-reverse;
+        height: auto;
+        gap: 10px;
+        padding: 10px;
+        text-align: center;
+    }
+    .main .cv__projects .cv__projects-right .projects__right-about{
+        font-size: 18px;
+        line-height: 1.2;
+    }
+    .main .cv__about .about__right {
+        width: 100%;
+        text-align: center;
+
+    }
+    .main .cv__about .about__right img{
+        display: inline-block;
+    }
+    .main .cv__about .about__left {
+        width: 100%;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    .main .cv__about .about__left .about__left-name {
+        font-size: 32px;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        width: 100%;
+        padding: 10px;
+    }
+    .main .cv__about .about__left .about__left-text {
+        color: #222;
+        font-size: 18px;
+        line-height: 1.2;
+        margin-bottom: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .about__left-buttons {
+        flex-direction: column-reverse;
+        justify-content: center;
+
+    }
+
+
+    .main .cv__projects{
+        align-items: center;
+        flex-direction: column-reverse;
+        justify-content: center;
+        height: 100%;
+        padding: 10px;
+    }
+    .main .cv__projects .cv__projects-right{
+        width: 100%;
+        align-items: center;
+        gap: 10px;
+        text-align: center;
+    }
+    .main .cv__projects .cv__projects-right .projects__right-count{
+        font-size: 26px;
+        line-height: 1.3;
+        width: 100%;
+    }
+    .main .cv__projects .cv__projects-right .projects__right-wish{
+        width: 100%;
+        font-size: 32px;
+        line-height: 1.2;
+    }
+    .main .cv__projects .cv__projects-left .projects__left-img{
+        width: 100%;
+        height: 100%;
+    }
+    .main .cv__advantages{
+        gap: 20px;
+    }
+    .advantages__title-text{
+        width: 100%;
+    }
+    .main .cv__advantages .cv__advantages-boxes{
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 30px;
+    }
+    .main .cv__advantages .cv__advantages-boxes .cv__advantages-box{
+        gap: 5px;
+    }
+    .main .cv__portfolio .cv__portfolio-title{
+        justify-content:center;
+    }
+    .main .cv__portfolio{
+        gap: 20px;
+    }
+    .main .cv__portfolio .cv__portfolio-box {
+        width: 100%;
+        gap: 10px;
+        padding: 0 10px;
+    }
+    .main .cv__portfolio .cv__portfolio-box img{
+        width: 48%;
+    }
+    .main .cv__feedback{
+        gap: 15px;
+        height: auto;
+        padding-bottom: 10px;
+    }
+    .main .cv__feedback .cv__feedback-title .feedback__title-text{
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    .main .cv__feedback .cv__feedback-box{
+        flex-direction: column;
+        gap: 10px;
+
+    }
+    .main .cv__feedback .cv__feedback-box .feedback__box-left, .feedback__box-right {
+        width: 100%;
+        border-radius: 30px;
+        height: auto;
+        background: #F9F9F9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .main .cv__feedback .cv__feedback-box .feedback__box-text{
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .main .cv__price{
+        gap: 15px;
+    }
+    .cv__price-boxes {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-bottom: 20px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .cv__price-box .price__box-title{
+        width: 90%;
+        height: auto;
+        line-height: 1.3;
+        margin-bottom: 10px;
+    }
+
+    .cv__price-box{
+        width: 90%;
+        height: auto;
+    }
+    .price__box-list{
+        margin-bottom: 10px;
+        gap: 10px;
+    }
+    .cv__price-proposition{
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        gap: 20px;
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .cv__price-proposition p{
+        font-size: 18px;
+        line-height: 1.3;
+    }
+    .cv__price-proposition button {
+        min-width: 156px;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+    .main .cv__blog {
+        gap: 10px;
+    }
+    .main .cv__blog .cv__blog-title{
+        justify-content: center;
+    }
+    .cv__blog-boxes {
+        gap: 10px;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .cv__blog-box {
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        gap: 12px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    }
